@@ -29,10 +29,10 @@ OUTPUT_DIR = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
 HERE = os.path.dirname(os.path.abspath(__file__))
 IMAGE_PATH = os.path.join(HERE, "entry.png")
 
-# SHA-256 of the final v1 entry.png (1024x1024, 599,085 bytes).
+# SHA-256 of the final v1 entry.png (1024x1024, 598,139 bytes).
 # Filled in after the final render; update it whenever entry.png changes.
-EXPECTED_SHA256 = "4fc80934a7cddf5091ad786ed0493488ebfaaea1fc555169d6251ed5e311d028"
-EXPECTED_BYTES = 599085
+EXPECTED_SHA256 = "83de24912c3b4561dab650ef6144711f945f3a6c6ccb1a25532ac9e33625bb54"
+EXPECTED_BYTES = 598139
 ONE_MIB = 1_048_576
 
 
